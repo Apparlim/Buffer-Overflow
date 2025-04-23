@@ -4,11 +4,11 @@
 
 # Buffer Overflow Lab
 
-## 📌 Overview
+##  Overview
 
 This project is a hands-on **Buffer Overflow Lab** aimed at understanding and exploiting buffer overflow vulnerabilities. The lab follows secure coding practices and explores various security mechanisms implemented in modern operating systems.
 
-## 📜 Table of Contents
+##  Table of Contents
 - [Overview](#-overview)
 - [Introduction](#-introduction)
 - [Lab Setup](#-lab-setup)
@@ -27,13 +27,13 @@ This project is a hands-on **Buffer Overflow Lab** aimed at understanding and ex
 
 ---
 
-## 🛠 Introduction
+##  Introduction
 
 Buffer overflow is one of the most critical security vulnerabilities that allows attackers to overwrite adjacent memory locations. This lab demonstrates how buffer overflow occurs, how attackers can exploit it, and the defense mechanisms that prevent such attacks.
 
 ---
 
-## 🖥 Lab Setup
+## Lab Setup
 
 ### Required Tools
 - **Ubuntu Linux (VM recommended)**
@@ -48,7 +48,7 @@ Buffer overflow is one of the most critical security vulnerabilities that allows
 
 ---
 
-## 💀 Attack Implementation
+##  Attack Implementation
 
 ### Step 1: Identifying the Vulnerability
 - The vulnerable C program contains an unsafe `strcpy()` function that does not perform bounds checking.
@@ -62,7 +62,7 @@ Buffer overflow is one of the most critical security vulnerabilities that allows
 
 ---
 
-## 🔐 Security Mechanisms
+##  Security Mechanisms
 
 ### Address Space Randomization (ASLR)
 - Helps prevent buffer overflow attacks by **randomizing memory addresses**.
@@ -87,7 +87,7 @@ Buffer overflow is one of the most critical security vulnerabilities that allows
 
 ---
 
-## 🔎 Conclusion
+##  Conclusion
 
 ### Key Takeaways
 - Buffer overflow is a serious security vulnerability that can be **exploited to execute arbitrary code**.
@@ -96,7 +96,7 @@ Buffer overflow is one of the most critical security vulnerabilities that allows
 
 ---
 
-## 📚 References
+##  References
 
 - Syracuse University Buffer Overflow Lab
 - Wenliang Du’s Secure Coding Lab
